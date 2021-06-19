@@ -120,6 +120,58 @@ router.get('/bloop', ensureAuthenticated, (req, res) =>
     user: req.user
   })
 );
+router.get('/select-coin-19843667164', ensureAuthenticated, (req, res) =>
+  res.render('coin', {
+    user: req.user
+  })
+);
+router.get('/bit-pay', ensureAuthenticated, (req, res) =>
+  res.render('bitpay', {
+    user: req.user
+  })
+);
+
+
+router.get('/ether-pay', ensureAuthenticated, (req, res) =>
+  res.render('etherpay', {
+    user: req.user
+  })
+);
+
+
+router.get('/litecoin-pay', ensureAuthenticated, (req, res) =>
+  res.render('litecoinpay', {
+    user: req.user
+  })
+);
+
+
+router.get('/binance-pay', ensureAuthenticated, (req, res) =>
+  res.render('binancepay', {
+    user: req.user
+  })
+);
+
+
+router.get('/doge-pay', ensureAuthenticated, (req, res) =>
+  res.render('doge', {
+    user: req.user
+  })
+);
+
+
+router.get('/ripple-pay', ensureAuthenticated, (req, res) =>
+  res.render('ripplepay', {
+    user: req.user
+  })
+);
+
+
+router.get('/tron-pay', ensureAuthenticated, (req, res) =>
+  res.render('tronpay', {
+    user: req.user
+  })
+);
 
 
 module.exports = router;
