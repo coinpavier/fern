@@ -110,6 +110,18 @@ router.get('/settings', ensureAuthenticated, (req, res) =>
     user: req.user
   })
 );
+
+router.get('/withdrawal-success', ensureAuthenticated, (req, res) =>
+  res.render('success', {
+    user: req.user
+  })
+);
+
+router.get('/deposit-success', ensureAuthenticated, (req, res) =>
+  res.render('deposit', {
+    user: req.user
+  })
+);
 router.get('/checkout', ensureAuthenticated, (req, res) =>
   res.render('checkout', {
     user: req.user
@@ -162,6 +174,17 @@ router.get('/doge-pay', ensureAuthenticated, (req, res) =>
 
 router.get('/ripple-pay', ensureAuthenticated, (req, res) =>
   res.render('ripplepay', {
+    user: req.user
+  })
+);
+
+router.get('/usdt-pay', ensureAuthenticated, (req, res) =>
+  res.render('usdt', {
+    user: req.user
+  })
+);
+router.get('/busd-pay', ensureAuthenticated, (req, res) =>
+  res.render('busd', {
     user: req.user
   })
 );

@@ -1164,7 +1164,7 @@ a {
   margin-top: auto !important;
 }
 .cid-stAxgSgmaI .mbr-section-title {
-  color: #232323;
+  color: #007581;
 }
 .cid-stAxgSgmaI .mbr-text,
 .cid-stAxgSgmaI .mbr-section-btn {
@@ -1176,6 +1176,69 @@ a {
 .cid-stAxgSgmaI .item-subtitle {
   text-align: left;
   color: #bbbbbb;
+}
+.cid-sbirzc1IIP {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-sbirzc1IIP .item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.cid-sbirzc1IIP .icon-box {
+  background: #007581;
+  width: 60px;
+  min-width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cid-sbirzc1IIP .mbr-iconfont {
+  font-size: 2rem;
+  color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sbirzc1IIP .card {
+    margin-bottom: 2rem;
+  }
+  .cid-sbirzc1IIP .card-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+.cid-sbirFyERh0 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-sbirFyERh0 .mbr-iconfont {
+  font-size: 1.4rem !important;
+  font-family: 'Moririse2' !important;
+  color: #18530c;
+  margin-left: 1rem;
+}
+.cid-sbirFyERh0 .panel-group {
+  border: none;
+}
+.cid-sbirFyERh0 .panel-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cid-sbirFyERh0 .panel-body,
+.cid-sbirFyERh0 .card-header {
+  padding: 1rem 0;
+}
+.cid-sbirFyERh0 .panel-title-edit {
+  color: #000000;
+}
+.cid-sbirFyERh0 .card .card-header {
+  background-color: transparent;
+  margin-bottom: 0;
 }
 .cid-stAxpH5GIr {
   padding-top: 6rem;
